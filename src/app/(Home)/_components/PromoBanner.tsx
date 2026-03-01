@@ -5,7 +5,7 @@ import Picture from "@src/components/picture/Picture";
 const PromoBanner = () => {
 	return (
 		<section className='w-full overflow-hidden' style={{ background: "#0d1117" }}>
-			<div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 max-h-[300px]'>
+			<div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[300px]'>
 				{/* Left – text content */}
 				<div className='flex flex-col justify-center px-8 sm:px-14 py-12'>
 					<span

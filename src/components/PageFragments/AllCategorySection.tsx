@@ -2,6 +2,10 @@
 import Link from "next/link";
 import Picture from "../picture/Picture";
 import { useRef, useState, useEffect } from "react";
+import { useCategories } from "../lib/woocommerce";
+import { convertToSlug } from "@constants";
+import { useDispatch } from "react-redux";
+import { updateCategorySlugId } from "../config/features/subCategoryId";
 
 const PRIMARY = "#38CB89";
 

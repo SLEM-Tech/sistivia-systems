@@ -18,7 +18,7 @@ const config: Config = {
 				transparent: "transparent",
 				current: "currentColor",
 
-				/* ========== Ebbergen Technologies Brand Foundation ========== */
+				/* ========== SISTIVIA SYSTEMS LIMITED Brand Foundation ========== */
 				brand: {
 					navy: "#002D5B",
 					blue: "#004B93",
@@ -30,7 +30,7 @@ const config: Config = {
 				panel: "#F7F7F7",
 				dark: "#0A0A0A",
 
-				// Shop primary – Ebbergen green
+				// Shop primary – SISTIVIA green
 				shop: {
 					DEFAULT: "#38CB89",
 					dark: "#22A86E",

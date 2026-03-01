@@ -39,10 +39,9 @@ const PRIMARY = "#38CB89";
 const NAV_BG = "#0d1117";
 
 const topNavLinks = [
-	{ id: 1, href: "/category?type=laptop-configurator", label: "Laptop Configurator" },
-	{ id: 2, href: "/category?type=pc-configurator", label: "PC Configurator" },
-	{ id: 3, href: "/category", label: "Laptops & PCs" },
-	{ id: 4, href: "/faq", label: "More..." },
+	{ id: 1, href: "/", label: "Home" },
+	{ id: 2, href: "/category", label: "Products" },
+	{ id: 3, href: "/contact-us", label: "Contact" },
 ];
 
 const Header = () => {
@@ -177,19 +176,6 @@ const Header = () => {
 
 							{/* Right actions */}
 							<div className='flex items-center gap-2 flex-shrink-0'>
-
-								{/* Quick links */}
-								<div className='flex items-center gap-0' style={{ borderRight: '1px solid rgba(255,255,255,0.12)', paddingRight: '10px', marginRight: '4px' }}>
-									{[
-										{ label: 'Popular', href: '/category?orderby=popularity' },
-										{ label: 'Recent', href: '/category?orderby=date' },
-										{ label: 'Super Deals', href: '/category?on_sale=true' },
-									].map(({ label, href }) => (
-										<Link key={label} href={href} className='text-xs font-medium text-gray-400 hover:text-white transition-colors px-2.5 py-1'>
-											{label}
-										</Link>
-									))}
-								</div>
 
 								{/* Currency */}
 								<Menu as='div' className='relative inline-block text-left'>
